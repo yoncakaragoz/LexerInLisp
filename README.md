@@ -9,7 +9,7 @@ It takes a file or an input from console and do lexical analysis.
 
 # Rules of G++ Language
 
-The rules are given in the G++Syntax.pdf
+The rules are given in the /Files/G++Syntax.pdf
 
 
 # How to run
