@@ -19,3 +19,32 @@ The rules are given in the G++Syntax.pdf
 2. Load gpp_lexer.lisp file
 
 3. Call gppinterpreter OR gppinterpreter "filename" 
+
+
+# Example
+
+Input:
+
+<pre><code>
+(deffun sumup (x)
+  (if (equal x 0)
+    1
+    (+ x (sumup (- x 1))) 
+  )   
+)
+</code></pre>
+
+
+Output:
+<pre><code>
+COMMENT
+OP_OP
+KW_DEFFUN
+IDENTIFIER
+OP_OP
+IDENTIFIER
+OP_CP
+OP_OP
+….
+</code></pre>
+
